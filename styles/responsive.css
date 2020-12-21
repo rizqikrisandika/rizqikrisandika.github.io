@@ -1,0 +1,58 @@
+@media (max-width: 575.98px) {
+    .banner{
+        margin-top: 3rem;
+    }
+
+    .banner-left{
+        margin-bottom: 3rem;
+    }
+
+    .banner-img{
+        background-size: cover;
+        width: 75vh;
+
+    }
+
+   .about-right{
+        margin-top: 2rem
+    }
+}
+
+@media (max-width: 767.98px) {
+    .banner{
+        margin-top: 3rem;
+    }
+
+    .banner-left{
+        margin-bottom: 3rem;
+    }
+
+    .banner-img{
+        background-size: cover;
+        width: 75vh;
+    }
+
+    .about-right{
+        margin-top: 2rem
+    }
+}
+
+@media (max-width: 991.98px) {
+    .banner{
+        margin-top: 3rem;
+    }
+
+    .banner-left{
+        margin-bottom: 3rem;
+    }
+
+    .banner-img{
+        background-size: cover;
+        width: 75vh;
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+
+}

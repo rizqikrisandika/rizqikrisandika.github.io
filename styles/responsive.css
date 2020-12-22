@@ -21,14 +21,86 @@
         display: block;
     }
 
-    .about h3{
-        font-size: 20px;
-    }
-
     .about hr{
         border-top: 4px solid #536DFE;
-        width: 7rem;
+        width: 9rem;
         margin-bottom: 2rem;
+    }
+
+    .skill{
+        margin-top: 1rem;
+    }
+    
+    .skill h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .skill hr{
+        border-top: 4px solid #536DFE;
+        width: 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .skill img{
+        width: 80vw;
+        margin: auto;
+        display: block;
+    }
+    .skill-left{
+        margin-top: 2rem;
+    }
+    
+    .skill-left img{
+        width: 40vw;
+        display: block;
+        margin: auto;
+    }
+    
+    
+    .skill-left p{
+        text-align: justify;
+    }
+    
+    .skill-left h5{
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        margin: 2rem 0px;
+    }
+
+    .portofolio{
+        margin-top: -3rem;
+    }
+    
+    .portofolio h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .portofolio hr{
+        border-top: 4px solid #536DFE;
+        width: 11rem;
+        margin-bottom: 2rem;
+    }
+    
+    .portofolio img{
+        width: 90vw;
+        margin: auto;
+        display: block;
+    }
+    .portofolio-left{
+        margin-top: 7rem
+    }
+    
+    .portofolio-left p{
+        text-align: justify;
+    }
+    
+    .portofolio-left h5{
+        font-size: 28px;
+        font-weight: bold;
+        color: #536DFE;
     }
 }
 
@@ -54,6 +126,82 @@
         width: 65vw;
         margin: auto;
         display: block;
+    }
+
+    .skill{
+        margin-top: 1rem;
+    }
+    
+    .skill h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .skill hr{
+        border-top: 4px solid #536DFE;
+        width: 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .skill img{
+        width: 80vw;
+        margin: auto;
+        display: block;
+    }
+    .skill-left{
+        margin-top: 2rem;
+    }
+    
+    .skill-left img{
+        width: 40vw;
+        display: block;
+        margin: auto;
+    }
+    
+    
+    .skill-left p{
+        text-align: justify;
+    }
+    
+    .skill-left h5{
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        margin: 2rem 0px;
+    }
+
+    .portofolio{
+        margin-top: -3rem;
+    }
+    
+    .portofolio h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .portofolio hr{
+        border-top: 4px solid #536DFE;
+        width: 11rem;
+        margin-bottom: 2rem;
+    }
+    
+    .portofolio img{
+        width: 90vw;
+        margin: auto;
+        display: block;
+    }
+    .portofolio-left{
+        margin-top: 7rem
+    }
+    
+    .portofolio-left p{
+        text-align: justify;
+    }
+    
+    .portofolio-left h5{
+        font-size: 28px;
+        font-weight: bold;
+        color: #536DFE;
     }
 }
 

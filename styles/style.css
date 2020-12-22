@@ -113,6 +113,97 @@ body{
     color: #536DFE;
 }
 
+.skill{
+    margin-top: 5rem;
+}
+
+.skill h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+.skill hr{
+    border-top: 4px solid #536DFE;
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+
+.skill img{
+    width: 90vh;
+    margin: auto;
+    display: block;
+}
+.skill-left{
+    margin: 0;
+}
+
+.skill-left img{
+    width: 10vw;
+    display: block;
+    margin: auto;
+}
+
+
+.skill-left p{
+    text-align: justify;
+}
+
+.skill-left h5{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.portofolio{
+    margin-top: 3rem;
+}
+
+.portofolio h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+.portofolio hr{
+    border-top: 4px solid #536DFE;
+    width: 11rem;
+    margin-bottom: 2rem;
+}
+
+.portofolio img{
+    width: 90vh;
+    margin: auto;
+    display: block;
+}
+.portofolio-left{
+    margin-top: 7rem
+}
+
+.portofolio-left p{
+    text-align: justify;
+}
+
+.portofolio-left h5{
+    font-size: 28px;
+    font-weight: bold;
+    color: #536DFE;
+}
+
+.portofolio-title{
+    text-align: center;
+}
+
+.portofolio .card{
+    background-color: ghostwhite;
+}
+
+.portofolio .card img{
+    width: 20vh;
+    margin: auto;
+    display: block;
+}
+
+
 
 
 

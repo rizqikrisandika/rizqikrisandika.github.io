@@ -134,7 +134,7 @@ body{
     display: block;
 }
 .skill-left{
-    margin: 0;
+    margin-top: 1.5rem;
 }
 
 .skill-left img{
@@ -143,13 +143,12 @@ body{
     margin: auto;
 }
 
-
 .skill-left p{
     text-align: justify;
 }
 
 .skill-left h5{
-    font-size: 28px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     margin-top: 2rem;
@@ -175,33 +174,118 @@ body{
     margin: auto;
     display: block;
 }
-.portofolio-left{
-    margin-top: 7rem
-}
 
-.portofolio-left p{
-    text-align: justify;
-}
-
-.portofolio-left h5{
-    font-size: 28px;
+.portofolio h5{
+    font-size: 18px;
     font-weight: bold;
-    color: #536DFE;
 }
 
 .portofolio-title{
     text-align: center;
 }
 
-.portofolio .card{
-    background-color: ghostwhite;
+.card:hover{
+    /* box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07); */
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.card-body{
+    margin-top: 1.5rem;
 }
 
 .portofolio .card img{
-    width: 20vh;
+    width: 100%;
+    height: 30vh;
+    object-fit: contain;
     margin: auto;
     display: block;
 }
+
+.contact{
+    margin-top: 3rem;
+}
+
+.contact h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact hr{
+    border-top: 4px solid #536DFE;
+    width: 11rem;
+    margin-bottom: 2rem;
+}
+
+.contact img{
+    width: 80vh;
+    margin: auto;
+    display: block;
+}
+
+.contact-right{
+    margin-top: 1.5rem;
+}
+
+.contact-right label{
+    font-weight: bold;
+}
+
+.contact-right .form-control{
+    border: none;
+}
+
+footer{
+    margin-top: 3rem;
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.footer-content h3{
+    font-weight: bold;
+}
+
+.footer-content .footer-icon{
+    margin: 2rem 0;
+}
+
+.footer-content a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer-content a:hover{
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-content i{
+    font-size: 30px;
+    color: #536DFE;
+}
+
+.footer-content i:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.footer-content p{
+    margin-bottom: 4rem;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: none;
+}
+
 
 
 

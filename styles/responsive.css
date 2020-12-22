@@ -5,6 +5,7 @@
 
     .banner-left{
         margin-bottom: 3rem;
+        text-align: center;
     }
 
     .banner-img{
@@ -16,7 +17,7 @@
     }
 
     .about img{
-        width: 70vw;
+        width: 60vw;
         margin: auto;
         display: block;
     }
@@ -29,6 +30,11 @@
 
     .skill{
         margin-top: 1rem;
+    }
+
+    .skill .row{
+        display: flex;
+        flex-direction: column-reverse;
     }
     
     .skill h3{
@@ -52,7 +58,7 @@
     }
     
     .skill-left img{
-        width: 40vw;
+        width: 20vw;
         display: block;
         margin: auto;
     }
@@ -63,14 +69,19 @@
     }
     
     .skill-left h5{
-        font-size: 28px;
+        font-size: 12px;
         font-weight: bold;
         text-align: center;
-        margin: 2rem 0px;
+    }
+
+    .skill-left .row{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .portofolio{
-        margin-top: -3rem;
+        margin-top: 3rem;
     }
     
     .portofolio h3{
@@ -89,18 +100,43 @@
         margin: auto;
         display: block;
     }
-    .portofolio-left{
-        margin-top: 7rem
+
+    .contact{
+        margin-top: 3rem;
     }
     
-    .portofolio-left p{
-        text-align: justify;
-    }
-    
-    .portofolio-left h5{
-        font-size: 28px;
+    .contact h3{
         font-weight: bold;
-        color: #536DFE;
+        text-align: center;
+    }
+    
+    .contact hr{
+        border-top: 4px solid #536DFE;
+        width: 11rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact img{
+        width: 80vw;
+        margin: auto;
+        display: block;
+    }
+    
+    .contact-right{
+        margin-top: 1.5rem;
+    }
+    
+    .contact-right label{
+        font-weight: bold;
+    }
+    
+    .contact-right .form-control{
+        border: none;
+    }
+
+    .card-body{
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -131,6 +167,11 @@
     .skill{
         margin-top: 1rem;
     }
+
+    .skill .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     
     .skill h3{
         font-weight: bold;
@@ -153,25 +194,29 @@
     }
     
     .skill-left img{
-        width: 40vw;
+        width: 20vw;
         display: block;
         margin: auto;
     }
-    
     
     .skill-left p{
         text-align: justify;
     }
     
     .skill-left h5{
-        font-size: 28px;
+        font-size: 18px;
         font-weight: bold;
         text-align: center;
-        margin: 2rem 0px;
+    }
+
+    .skill-left .row{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     .portofolio{
-        margin-top: -3rem;
+        margin-top: 3rem;
     }
     
     .portofolio h3{
@@ -203,6 +248,40 @@
         font-weight: bold;
         color: #536DFE;
     }
+
+    .contact{
+        margin-top: 3rem;
+    }
+    
+    .contact h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contact hr{
+        border-top: 4px solid #536DFE;
+        width: 11rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact img{
+        width: 80vw;
+        margin: auto;
+        display: block;
+    }
+    
+    .contact-right{
+        margin-top: 1.5rem;
+    }
+    
+    .contact-right label{
+        font-weight: bold;
+    }
+    
+    .contact-right .form-control{
+        border: none;
+    }
+    
 }
 
 
@@ -216,17 +295,274 @@
     }
 
     .banner-img{
-        width: 75vh;
+        width: 75vw;
     }
 
     .about-right{
         margin-top: 2rem
     }
+
+    .about img{
+        width: 65vw;
+        margin: auto;
+        display: block;
+    }
+
+    .skill{
+        margin-top: 1rem;
+    }
+
+    .skill .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .skill h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .skill hr{
+        border-top: 4px solid #536DFE;
+        width: 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .skill img{
+        width: 80vw;
+        margin: auto;
+        display: block;
+    }
+    .skill-left{
+        margin-top: 2rem;
+    }
+    
+    .skill-left img{
+        width: 20vw;
+        display: block;
+        margin: auto;
+    }
+    
+    .skill-left p{
+        text-align: justify;
+    }
+    
+    .skill-left h5{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .skill-left .row{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .portofolio{
+        margin-top: 3rem;
+    }
+    
+    .portofolio h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .portofolio hr{
+        border-top: 4px solid #536DFE;
+        width: 11rem;
+        margin-bottom: 2rem;
+    }
+    
+    .portofolio img{
+        width: 90vw;
+        margin: auto;
+        display: block;
+    }
+    .portofolio-left{
+        margin-top: 7rem
+    }
+    
+    .portofolio-left p{
+        text-align: justify;
+    }
+    
+    .portofolio-left h5{
+        font-size: 28px;
+        font-weight: bold;
+        color: #536DFE;
+    }
+
+    .contact{
+        margin-top: 3rem;
+    }
+    
+    .contact h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contact hr{
+        border-top: 4px solid #536DFE;
+        width: 11rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact img{
+        width: 80vw;
+        margin: auto;
+        display: block;
+    }
+    
+    .contact-right{
+        margin-top: 1.5rem;
+    }
+    
+    .contact-right label{
+        font-weight: bold;
+    }
+    
+    .contact-right .form-control{
+        border: none;
+    }
+    
+    
 }
 
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner{
+        margin-top: 3rem;
+    }
+
+    .banner-left{
+        margin-bottom: 3rem;
+    }
+
+    .banner-img{
+        width: 40vw;
+    }
+
+    .about-right{
+        margin-top: 2rem
+    }
+
+    .about img{
+        width: 35vw;
+        margin: auto;
+        display: block;
+    }
+
+    .skill{
+        margin-top: 1rem;
+    }
+    
+    .skill h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .skill hr{
+        border-top: 4px solid #536DFE;
+        width: 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .skill img{
+        width: 40vw;
+        margin: auto;
+        display: block;
+    }
+    .skill-left{
+        margin-top: 2rem;
+    }
+    
+    .skill-left img{
+        width: 10vw;
+        display: block;
+        margin: auto;
+    }
+    
+    .skill-left p{
+        text-align: justify;
+    }
+    
+    .skill-left h5{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .portofolio{
+        margin-top: 3rem;
+    }
+    
+    .portofolio h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .portofolio hr{
+        border-top: 4px solid #536DFE;
+        width: 11rem;
+        margin-bottom: 2rem;
+    }
+    
+    .portofolio img{
+        width: 90vw;
+        margin: auto;
+        display: block;
+    }
+    .portofolio-left{
+        margin-top: 7rem
+    }
+    
+    .portofolio-left p{
+        text-align: justify;
+    }
+    
+    .portofolio-left h5{
+        font-size: 28px;
+        font-weight: bold;
+        color: #536DFE;
+    }
+    
+    .contact{
+        margin-top: 3rem;
+    }
+    
+    .contact h3{
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .contact hr{
+        border-top: 4px solid #536DFE;
+        width: 11rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contact img{
+        width: 60vh;
+        margin: auto;
+        display: block;
+    }
+    
+    .contact-right{
+        margin-top: 1.5rem;
+    }
+    
+    .contact-right label{
+        font-weight: bold;
+    }
+    
+    .contact-right .form-control{
+        border: none;
+    }
+}
 
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    
+}
 

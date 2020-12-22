@@ -2,6 +2,10 @@ body{
     background-color: #fff;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 .navbar-brand{
     font-weight: bold;
@@ -174,6 +178,15 @@ body{
     margin: auto;
     display: block;
 }
+
+.portofolio a{
+   color: black;
+}
+
+.portofolio a:hover{
+    color: #536DFE;
+    text-decoration: none;
+ }
 
 .portofolio h5{
     font-size: 18px;

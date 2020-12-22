@@ -8,17 +8,32 @@
     }
 
     .banner-img{
-        background-size: cover;
-        width: 75vh;
-
+        width: 80vw;
     }
 
    .about-right{
         margin-top: 2rem
     }
+
+    .about img{
+        width: 70vw;
+        margin: auto;
+        display: block;
+    }
+
+    .about h3{
+        font-size: 20px;
+    }
+
+    .about hr{
+        border-top: 4px solid #536DFE;
+        width: 7rem;
+        margin-bottom: 2rem;
+    }
 }
 
-@media (max-width: 767.98px) {
+
+@media (min-width: 576px) and (max-width: 767.98px) {
     .banner{
         margin-top: 3rem;
     }
@@ -28,7 +43,31 @@
     }
 
     .banner-img{
-        background-size: cover;
+        width: 75vw;
+    }
+
+    .about-right{
+        margin-top: 2rem
+    }
+
+    .about img{
+        width: 65vw;
+        margin: auto;
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner{
+        margin-top: 3rem;
+    }
+
+    .banner-left{
+        margin-bottom: 3rem;
+    }
+
+    .banner-img{
         width: 75vh;
     }
 
@@ -37,22 +76,9 @@
     }
 }
 
-@media (max-width: 991.98px) {
-    .banner{
-        margin-top: 3rem;
-    }
 
-    .banner-left{
-        margin-bottom: 3rem;
-    }
-
-    .banner-img{
-        background-size: cover;
-        width: 75vh;
-    }
-}
-
-@media (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
 
-}
+@media (min-width: 1200px) {}
+

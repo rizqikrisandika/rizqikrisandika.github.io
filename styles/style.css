@@ -6,10 +6,6 @@ html{
     scroll-behavior: smooth;
 }
 
-nav{
-    min-height: 100px;
-}
-
 .row{
     overflow: hidden;
 }

@@ -543,7 +543,7 @@
     }
     
     .contact img{
-        width: 60vh;
+        width: 40vw;
         margin: auto;
         display: block;
     }
@@ -563,6 +563,33 @@
 
 
 @media (min-width: 1200px) {
+    .banner-img{
+        width: 35vw;
+    }
+
+    .about img{
+        width: 25vw;
+        margin: auto;
+        display: block;
+    }
+
+    .skill img{
+        width: 35vw;
+        margin: auto;
+        display: block;
+    }
     
+    .skill-left img{
+        width: 8vw;
+        display: block;
+        margin: auto;
+    }
+
+    .contact img{
+        width: 40vw;
+        margin: auto;
+        display: block;
+    }
+   
 }
 

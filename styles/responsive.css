@@ -33,10 +33,6 @@
         margin-top: 1rem;
     }
 
-    .skill .row{
-        display: flex;
-        flex-direction: column-reverse;
-    }
     
     .skill h3{
         font-weight: bold;
@@ -54,35 +50,38 @@
         margin: auto;
         display: block;
     }
-    .skill-left{
+    .skill-right{
         margin-top: 2rem;
     }
     
-    .skill-left img{
+    .skill-right img{
         width: 20vw;
         display: block;
         margin: auto;
     }
     
     
-    .skill-left p{
+    .skill-right p{
         text-align: justify;
     }
     
-    .skill-left h5{
+    .skill-right h5{
         font-size: 12px;
         font-weight: bold;
         text-align: center;
     }
 
-    .skill-left .row{
+    .skill-right .row{
         margin-top: 4rem;
-        display: flex;
-        flex-direction: row-reverse;
     }
 
     .portofolio{
         margin-top: 3rem;
+    }
+
+    .portofolio-title {
+        text-align: center;
+        margin-top: -50px;
     }
     
     .portofolio h3{
@@ -170,10 +169,6 @@
         margin-top: 1rem;
     }
 
-    .skill .row{
-        display: flex;
-        flex-direction: column-reverse;
-    }
     
     .skill h3{
         font-weight: bold;
@@ -191,34 +186,37 @@
         margin: auto;
         display: block;
     }
-    .skill-left{
+    .skill-right{
         margin-top: 2rem;
     }
     
-    .skill-left img{
+    .skill-right img{
         width: 20vw;
         display: block;
         margin: auto;
     }
     
-    .skill-left p{
+    .skill-right p{
         text-align: justify;
     }
     
-    .skill-left h5{
+    .skill-right h5{
         font-size: 18px;
         font-weight: bold;
         text-align: center;
     }
 
-    .skill-left .row{
+    .skill-right .row{
         margin-top: 4rem;
-        display: flex;
-        flex-direction: row-reverse;
     }
 
     .portofolio{
         margin-top: 3rem;
+    }
+
+    .portofolio-title {
+        text-align: center;
+        margin-top: -50px;
     }
     
     .portofolio h3{
@@ -310,7 +308,7 @@
     }
 
     .about img{
-        width: 65vw;
+        width: 50vw;
         margin: auto;
         display: block;
     }
@@ -319,10 +317,6 @@
         margin-top: 1rem;
     }
 
-    .skill .row{
-        display: flex;
-        flex-direction: column-reverse;
-    }
     
     .skill h3{
         font-weight: bold;
@@ -340,34 +334,33 @@
         margin: auto;
         display: block;
     }
-    .skill-left{
+    .skill-right{
         margin-top: 2rem;
     }
     
-    .skill-left img{
-        width: 20vw;
+    .skill-right img{
+        width: 13vw;
         display: block;
         margin: auto;
     }
     
-    .skill-left p{
+    .skill-right p{
         text-align: justify;
     }
     
-    .skill-left h5{
+    .skill-right h5{
         font-size: 18px;
         font-weight: bold;
         text-align: center;
     }
 
-    .skill-left .row{
-        margin-top: 4rem;
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
     .portofolio{
         margin-top: 3rem;
+    }
+
+    .portofolio-title {
+        text-align: center;
+        margin-top: -50px;
     }
     
     .portofolio h3{
@@ -386,6 +379,7 @@
         margin: auto;
         display: block;
     }
+    
     .portofolio-left{
         margin-top: 7rem
     }
@@ -442,6 +436,10 @@
     nav{
         min-height: 100px !important;
     }
+    
+    .skill-left img{
+        display: none !important;
+    }
 
     .banner{
         margin-top: 3rem;
@@ -460,7 +458,7 @@
     }
 
     .about img{
-        width: 35vw;
+        width: 20vh;
         margin: auto;
         display: block;
     }
@@ -485,21 +483,21 @@
         margin: auto;
         display: block;
     }
-    .skill-left{
+    .skill-right{
         margin-top: 2rem;
     }
     
-    .skill-left img{
-        width: 10vw;
+    .skill-right img{
+        width: 13vw;
         display: block;
         margin: auto;
     }
     
-    .skill-left p{
+    .skill-right p{
         text-align: justify;
     }
     
-    .skill-left h5{
+    .skill-right h5{
         font-size: 18px;
         font-weight: bold;
         text-align: center;
@@ -507,6 +505,11 @@
 
     .portofolio{
         margin-top: 3rem;
+    }
+
+    .portofolio-title {
+        text-align: center;
+        margin-top: -50px;
     }
     
     .portofolio h3{
@@ -525,6 +528,7 @@
         margin: auto;
         display: block;
     }
+
     .portofolio-left{
         margin-top: 7rem
     }
@@ -578,6 +582,10 @@
     nav{
         min-height: 100px !important;
     }
+
+    .skill-left img{
+        display: none !important;
+    }
     
     .banner-img{
         width: 35vw;
@@ -595,8 +603,8 @@
         display: block;
     }
     
-    .skill-left img{
-        width: 8vw;
+    .skill-right img{
+        width: 12vw;
         display: block;
         margin: auto;
     }
